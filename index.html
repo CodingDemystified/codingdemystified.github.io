@@ -73,11 +73,21 @@
     .signup {
       background-color: #a01d26;
       color: #f4f4ef;
-      font-family: 'Raleway', sans-serif;
+      font-family: 'Work Sans', sans-serif;
       padding: 10px 20px;
-      border-radius: 3%;
+      border-radius: 5px;
       margin-top: 20px;
       margin-bottom: 20px;
+    }
+
+    .signup input {
+      border-radius: 3px;
+    }
+
+    .signup input:hover {
+      color: #a01d26;
+      background-color: #f4f4ef;
+
     }
 
     .submit {
@@ -109,6 +119,20 @@
 
   .points {
     margin: 10px 0px;
+  }
+
+  footer {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  footer a {
+    color: #a01d26;
+    padding: 5px;
+  }
+
+  footer a:hover {
+    color: #20232a;
   }
 
 </style>
@@ -219,7 +243,7 @@
     <div class="row signup">
       <form action="//twitter.us7.list-manage.com/subscribe/post?u=8947a2e894a2e751b2aedc9e1&amp;id=8fbc369844" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
         <div class="col-md-6">
-          <h3 id="cta">Yes, I want to learn more about coding.</h3>
+          <h3 id="cta">Yes, I want to learn more about coding!</h3>
         </div>
         <div class="email-input col-md-4 form-group">
           <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="email address" required>
@@ -255,8 +279,19 @@
 
         </div>
       </div>
+      <hr>
       <footer>
-
+        <div>
+          <p>
+            <a href="mailto:jenny@codingdemystified.org"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/groups/womenwebdev/"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
+            <a href="https://ca.linkedin.com/in/jpychan"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+            <!-- <a href="#"><i class="fa fa-youtube fa-2x" aria-hidden="true"></i></a> -->
+          </p>
+        </div>
+        <div>
+          <p>&#9400; 2017</p>
+        </div>
       </footer>
     </div>
   </body>
